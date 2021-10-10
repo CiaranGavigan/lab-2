@@ -1,3 +1,4 @@
+//import list
 import './App.css';
 import React, { Component } from 'react';
 import Header from './components/header';
@@ -23,6 +24,7 @@ class App extends Component {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
+      //navbar links
         <Nav.Link href="/App">Home</Nav.Link>
         <Nav.Link href="/header">Header</Nav.Link>
         <Nav.Link href="/footer">Footer</Nav.Link>
